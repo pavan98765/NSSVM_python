@@ -20,20 +20,6 @@ You can quickly start experimenting with the NSSVM algorithm by accessing Google
 
 ## Results
 
-### Significant time advantage(time in seconds):
-
-| Dataset | LibSVM  | Linear SVM | NSSVM  |
-| ------- | ------- | ---------- | ------ |
-| a5a     | 39.9100 | 2.8400     | 0.1170 |
-| a6a     | 36.4700 | 0.6990     | 0.0968 |
-| a7a     | 21.5400 | 1.7200     | 0.0763 |
-| a8a     | 2.7400  | 0.6738     | 0.2275 |
-| a9a     | 19.5900 | 0.5638     | 0.0500 |
-
-### Test set accuracy
-
-## Results
-
 ### Test set accuracy
 
 | Dataset | LibSVM | Linear SVM | Our NSSVM |
