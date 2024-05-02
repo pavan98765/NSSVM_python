@@ -40,7 +40,7 @@ You can quickly start experimenting with the NSSVM algorithm by accessing Google
 | a8a     | 87.65% | 85.77%     | 84.59%    |
 | a9a     | 86.99% | 85.42%     | 79.28%    |
 
-### Significant time advantage (time in seconds)
+### Significant time advantage ( in seconds)
 
 | Dataset | LibSVM | Linear SVM | NSSVM |
 | ------- | ------ | ---------- | ----- |
@@ -52,28 +52,37 @@ You can quickly start experimenting with the NSSVM algorithm by accessing Google
 
 ## Analysis
 
-1. Accuracy Comparison:
+1. **Accuracy Comparison**:
 
    - Across multiple datasets (a5a, a6a, a7a, a8a, a9a), NSSVM's accuracy is consistently slightly lower compared to traditional SVM implementations (LibSVM and linear SVM).
    - The accuracy difference between NSSVM and the other methods is marginal, typically within a few percentage points.
 
-2. _Time Advantage_:
+2. **Time Advantage**:
 
    - NSSVM demonstrates a significant time advantage in training compared to both LibSVM and linear SVM across all datasets.
    - Training times for NSSVM are notably lower, indicating its efficiency in computational resource utilization.
 
-3. _Tradeoff Analysis_:
+3. **Tradeoff Analysis**:
 
    - Despite a slight sacrifice in accuracy, NSSVM's substantial reduction in training time suggests a favorable tradeoff.
    - The tradeoff between accuracy and training time makes NSSVM a compelling choice, especially in time-sensitive applications where computational efficiency is crucial.
 
-4. _Robustness and Generalization_:
+4. **Robustness and Generalization**:
    - NSSVM's consistent performance across different datasets suggests robustness and generalization capabilities.
    - While NSSVM may not always achieve the highest accuracy, its stable performance across diverse datasets underscores its reliability.
 
 In summary, NSSVM's key highlight is its ability to offer significantly faster training times with minimal loss in accuracy compared to traditional SVM implementations. This time advantage positions NSSVM as a promising option for time-sensitive applications, where computational efficiency is paramount.
 
-## Installation
+## Datasets
+
+The following datasets are included in the repository for easy access and testing:
+
+- **a5a, a6a, a7a, a8a, a9a**: Standard datasets commonly used for benchmarking classification models.
+- **Sonar, Mines vs. Rocks**: Dataset for distinguishing between sonar signals bounced off a metal cylinder and those bounced off a roughly cylindrical rock.
+- **Iris**: Famous dataset for multi-class classification featuring three types of Iris plants.
+- **dhrb data**: Custom dataset (assumed for demonstration purposes; replace with actual data description as needed).
+
+## Usage
 
 To get started with the local setup:
 
@@ -81,6 +90,20 @@ To get started with the local setup:
 git clone https://github.com/pavan98765/NSSVM_python.git
 cd NSSVM_python
 ```
+
+### Notebooks
+
+Explore the following Jupyter notebooks to understand and interact with the NSSVM algorithm:
+
+- [**NSSVM Notebook**](./nssvm.ipynb): Demonstrates the python implementation of NSSVM on various datasets. Useful for training and evaluating the model effectively.
+- [**Regular SVM Comparison Notebook**](./regular_svm_on_datasets.ipynb): Compares the performance of LibSVM and Linear SVM with NSSVM using the same datasets. Useful for understanding the relative advantages of NSSVM.
+
+These notebooks are designed to provide practical insights and hands-on experience with both NSSVM and traditional SVM techniques.
+
+## Resources
+
+- [NSSVM Paper on IEEE](https://ieeexplore.ieee.org/document/9415153)
+- [Original NSSVM MATLAB Implementation on GitHub](https://github.com/ShenglongZhou/NSSVM)
 
 ## Contributing
 
