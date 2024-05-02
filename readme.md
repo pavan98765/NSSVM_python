@@ -80,7 +80,7 @@ The following datasets are included in the repository for easy access and testin
 - **a5a, a6a, a7a, a8a, a9a**: Standard datasets commonly used for benchmarking classification models.
 - **Sonar, Mines vs. Rocks**: Dataset for distinguishing between sonar signals bounced off a metal cylinder and those bounced off a roughly cylindrical rock.
 - **Iris**: Famous dataset for multi-class classification featuring three types of Iris plants.
-- **dhrb data**: Custom dataset (assumed for demonstration purposes; replace with actual data description as needed).
+- **dhrb data**: Custom dataset.
 
 ## Usage
 
@@ -109,4 +109,4 @@ These notebooks are designed to provide practical insights and hands-on experien
 
 Contributions are welcome! Please fork the repository and submit pull requests with your proposed changes.
 
-Thank you!
+### Thank you!
